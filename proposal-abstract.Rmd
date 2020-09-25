@@ -1,0 +1,47 @@
+---
+title: "Religious Priming: Replication and Proof-of-Concept"
+output:
+   #pdf_document: default
+   html_document:
+   #  df_print: paged
+  #word_document: default
+#always_allow_html: true
+    
+bibliography: BAMLabLib.bib
+csl: apa.csl
+header-includes:
+   #- \usepackage{draftwatermark}
+   #- \SetWatermarkText{PREPRINT}
+   #- \SetWatermarkLightness{.97}
+   - \usepackage{setspace}
+   - \usepackage{lineno}
+   #- \linenumbers
+   - \usepackage{fancyhdr}
+   - \pagestyle{fancy}
+   - \fancyhead[R]{Priming Proof-of-Concept}
+   - \usepackage{footnote}
+   - \renewcommand{\thefootnote}{\roman{footnote}}
+# indent: true
+toc: true
+author: 
+   - Will M. Gervais ^[Centre for Culture and Evolution, Brunel University London, Will.Gervais@brunel.ac.uk]
+   - Aiyana K Willard ^[Centre for Culture and Evolution, Brunel University London, Aiyana.Willard@brunel.ac.uk]
+   
+
+date: "`r format(Sys.time(), '%B %Y')`"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(wordcountaddin)
+```
+
+# Abstract
+
+Does religion make people more moral? According to the religious prosociality hypothesis [@norenzayanCulturalEvolutionProsocial2016], certain religious practices, beliefs, and norms may have been instrumental in the rapid expansion of human cooperation over the past dozen millenia. The hypothesis is consistent with a wide range of historical and anthropological evidence, but has also been supported by laboratory experiments in psychology, which have found that subtle reminders of religion -- termed religious priming -- increases generosity in experimental economic games  [@shariffGodWatchingYou2007]. One meta-analysis supports the robustness of this finding [@shariffReligiousPrimingMetaanalysis2016], although other meta-analytic techniques suggest that selectively reported findings may have overstated the support for religious priming [@vanelkMetaanalysesAreNo2015]. Thus, one crucial piece of evidence in the broad religious prosociality hypothesis may rest on a shaky empirical foundation. In this project, we seek to stress-test this key empirical foundation by 1) performing a rigorous replication project of religious priming, 2) go back to basics and conduct a proof-of-concept study assessing the degree to which existing and novel religious priming methodologies actually activate religious and prosocial cognition, and 3) lead a crowdsourced experimental tournament to develop and test stronger priming methodologies to more rigorously test the assumption that religious reminders can increase prosocial behavior. Papers on the religious prosociality hypothesis have been of tremendous scholarly influence, attracting thousands of citations, and also has been presented in books to popular audiences. It is thus of crucial importance for some of its key empirical foundations to be subjected to rigorous quality control, as we seek to do here, and also for its key assumptions -- such as that religious nudges can promote generosity -- to receive the strongest possible proof-of concept tests. We hope our project will both revisit and bolster the empirical foundations of a popular inderdisciplinary theory of human cooperation.
+
+\pagebreak
+# References
+
